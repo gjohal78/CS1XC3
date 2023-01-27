@@ -12,4 +12,4 @@ cp - This command can copy files and folders from one location to another.
 mkdir - This command allows you to make a new directory.
 touch - This command is used to create a file that is empty.
 sudo - This command allows you to temporarily use your account as the root user. 
-grep - This command is sued to search up a certain string of characters in a group of files.
+grep - This command is used to search up a certain string of characters in a group of files.
