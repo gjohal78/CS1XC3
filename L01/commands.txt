@@ -1,0 +1,15 @@
+ls - The ls command is used to list files. ls lists the files of the directory you're currently in. 
+All files in the current directory are listed by "ls" on its own, excluding hidden files. 
+cd - The cd command is used to change the directory from the one you are currently in to another one. 
+less - A file's contents are displayed with the less command one screen at a time.
+You can navigate through the pages of the file one at a time instead of viewing the 
+entire file at once.
+pwd - It writes the full pathname of the current/working directory that you are in.
+mv - This command moves files/folders from on location on the computer to another.
+man - This command displays the user manual of any command that is run on the terminal.
+rm - This command is used to delete files.
+cp - This command can copy files and folders from one location to another.
+mkdir - This command allows you to make a new directory.
+touch - This command is used to create a file that is empty.
+sudo - This command allows you to temporarily use your account as the root user. 
+grep - This command is sued to search up a certain string of characters in a group of files.
