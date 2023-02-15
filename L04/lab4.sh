@@ -14,7 +14,7 @@ if [ "$#" -gt 3 ] ; then
 
 elif [ "$2" -eq 1 ] ; then
     if [ ! -f $var1 ] ; then
-        echo $USER > $File
+        echo $USER > $var1
     fi
 
 
