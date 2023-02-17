@@ -10,7 +10,7 @@ int main() {
       }
     }
     if (sum == i) {
-      printf("%d is a perfect number\n", i);
+      printf("%d\n", i);
     }
   }
   return 0;
