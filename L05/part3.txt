@@ -1,0 +1,25 @@
+(1) Why are all the reported times zero?
+    
+    Because by default, gprof discards any timing information for functions that 
+    take less than 0.01 seconds to execute.
+
+(2) Why is factors_itr only called once every time the program is run?
+    
+    Factors_itr is called only once for a particular value of d because it is called from 
+    within factor_rec, which itself is called only once within the main function. Specifically, 
+    factor_rec takes d as its input and within factor_rec, primeFactors_rec is called to
+    calculate the prime factors of d, followed by allFactors_rec to generate all potential
+    factorizations of d based on its prime factors. Finally, the outcomes are printed via 
+    printArray2D. Consequently, since factor_rec is only called once with d as its input, 
+    factors_itr is also only called once for that value of d.
+
+
+(3) Is there an obvious mathematical relationship between the input number 
+    and the number of recursive calls? What about the number of prime 
+    factors each number produces?
+    
+    The program will make more recursive calls as the number of prime factors increases. 
+    Additionally, larger even numbers will generate more prime factors. However, if a number 
+    is a prime, it will not have any prime factors.
+
+    

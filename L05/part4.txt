@@ -1,0 +1,38 @@
+(1) How are the iterative and recursive algorithms similar and different for the same test cases?
+    Which has more repetition?
+    
+    Both iterative and recursive algorithms find factors of a number give the same 
+    output for a given test case. Iterative algrorithims repeatedly execute a series of
+    instructions in a loop. Whereas recursive algorithims divide the problem into smaller
+    problems. Recursive algorithims has more repetition, compared to the iterative algorithim
+    
+(2) What is the most executed line in the iterative and recursive algorithms? 
+    Are they the same?
+    
+    Case of 256 -
+
+    In the iterative algorithm: line 215 with 6785 executions
+    
+    In the recursive algorithm: line 107 with 15824 executions
+
+    These arent the same lines, they are looping through different things
+    The recursive algorithim has more executions due to it having more repetition
+
+
+
+(3) Are there any parts of the code which are not exercised?
+    
+    Yes there were parts of code that were not exercised, examples being: For recursize
+    algorithim the factor_itr, or primeFactors_itr functions. For iterative alogrithim
+    factor_rec primeFactors_rec and allFactors_rec functions. As well as in this case the
+    printArray wasnt used in any algorithim.
+    
+
+(4) If we were to try to optimize either function, where would be a good place to start?
+    
+    To optimize the recursive function, we could use memoization to store the previously computed results. 
+    This will then prevent redundant computation and increase the effienciency. We can use an array to store 
+    previously computed prime factors. To optimize the iterative function, we can remove the qsort function 
+    and instead generate the factors in a sorted order. This can be done by generating all the factors from 1 
+    to the square root of N and then appending the corresponding N/factor to the list. This will result in a 
+    sorted list of factors.

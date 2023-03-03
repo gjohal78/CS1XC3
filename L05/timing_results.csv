@@ -1,0 +1,15 @@
+Search Value, Linear Search, Binary Search, Fibonacci Search, Notes
+1,0m0.002s,0m0.09s,0m0.001s,"linear search was the fastest here, I believe because it was the first value"
+4,0m0.002s,0m0.005s,0m0.003s,"linear search again was the fastest, mabye because it was one of the first values"
+22,0m0.007s,0m0.006s,0m0.003s,"fibonacci search was the fastest here, maybe because it's recurisive"
+37,0m0.002s,0m0.005s,0m0.002s,fibonacci search and linear search were the same maybe due to it being a number close to beginning and the fibonacci search checking it recursively
+22906,0m0.005s,0m0.003s,0m0.003s,"binary and fibonacci search were the same, due to the same time complexity of O(logn)"
+53757,0m0.003s,0m0.008s,0m0.002s,"fibonacci search was the fastest again, due to it being recursive"
+112591,0m0.005s,0m0.002s,0m0.003s,"binary search was the fastest here, due to its time complexity and not being recursive"
+361940,0m0.005s,0m0.002s,0m0.002s,"binary and fibonacci search were the same, due to the same time complexity of O(logn)"
+475713,0m0.005s,0m0.005s,0m0.002s,"fibonacci search was the fastest, due to it checking it recursively"
+893766,0m0.004s,0m0.03s,0m0.003s,"binary and fibonacci search were the same, due to the same time complexity of O(logn)"
+996637,0m0.006s,0m0.008s,0m0.002s,"fibonacci search was the fastest again, due to time complexity and it being recursive"
+996639,0m0.06s,0m0.002s,0m0.002s,"binary and fibonacci search were the same, due to the same time complexity of O(logn)"
+996652,0m0.008s,0m0.005s,0m0.001s,fibonacci search was the fastest again due to it being recursive and its time complexity of O(logn)
+-996652,0m0.007s,0m0.002s,0m0.002s,"binary and fibonacci search were the same, due to the same time complexity of O(logn)"
