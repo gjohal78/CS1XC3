@@ -1,0 +1,14 @@
+# System-wide .profile for sh(1)
+
+if [ -x /usr/libexec/path_helper ]; then
+	eval `/usr/libexec/path_helper -s`
+fi
+
+if [ "${BASH-no}" != "no" ]; then
+	[ -r /etc/bashrc ] && . /etc/bashrc
+fi
+------
+ 0:13  up 159 days,  6:52, 2 users, load averages: 4.19 3.81 3.98
+USER     TTY      FROM              LOGIN@  IDLE WHAT
+gurmanjohal console  -                28Sep22 159days -
+gurmanjohal s000     -                Mon23      14 -zsh          ��    /bin/zsh       

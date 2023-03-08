@@ -1,0 +1,1 @@
+export PATH="$PATH:/Users/gurmanjohal/Documents/CS1XC3/L06/part3

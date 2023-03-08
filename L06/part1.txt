@@ -1,0 +1,44 @@
+/home/gurmanjohal
+/home/gurmanjohal/Documents/CS1XC3/L06
+gurmanjohal
+/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/gurmanjohal/opt/anaconda3/bin:/Users/gurmanjohal/opt/anaconda3/condabin
+zsh: command not found: invalidcommand
+USER=gurmanjohal
+MallocNanoZone=0
+__CFBundleIdentifier=com.microsoft.VSCode
+COMMAND_MODE=unix2003
+LOGNAME=gurmanjohal
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/gurmanjohal/opt/anaconda3/bin:/Users/gurmanjohal/opt/anaconda3/condabin
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.knfEWQHv3F/Listeners
+SHELL=/bin/zsh
+HOME=/Users/gurmanjohal
+__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x52
+TMPDIR=/var/folders/dc/8z0qkb4x2rbfrsj6pbb1g6mr0000gn/T/
+XPC_SERVICE_NAME=0
+XPC_FLAGS=0x0
+ORIGINAL_XDG_CURRENT_DESKTOP=undefined
+SHLVL=1
+PWD=/Users/gurmanjohal/Documents/CS1XC3/L06
+OLDPWD=/Users/gurmanjohal/Documents/CS1XC3
+CONDA_EXE=/Users/gurmanjohal/opt/anaconda3/bin/conda
+CONDA_PYTHON_EXE=/Users/gurmanjohal/opt/anaconda3/bin/python
+CONDA_SHLVL=1
+CONDA_PREFIX=/Users/gurmanjohal/opt/anaconda3
+CONDA_DEFAULT_ENV=base
+CONDA_PROMPT_MODIFIER=(base) 
+TERM_PROGRAM=vscode
+TERM_PROGRAM_VERSION=1.74.3
+LANG=en_US.UTF-8
+COLORTERM=truecolor
+GIT_ASKPASS=/private/var/folders/dc/8z0qkb4x2rbfrsj6pbb1g6mr0000gn/T/AppTranslocation/40372164-36BE-41C7-B44E-8EF97D88AD66/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh
+VSCODE_GIT_ASKPASS_NODE=/private/var/folders/dc/8z0qkb4x2rbfrsj6pbb1g6mr0000gn/T/AppTranslocation/40372164-36BE-41C7-B44E-8EF97D88AD66/d/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=--ms-enable-electron-run-as-node
+VSCODE_GIT_ASKPASS_MAIN=/private/var/folders/dc/8z0qkb4x2rbfrsj6pbb1g6mr0000gn/T/AppTranslocation/40372164-36BE-41C7-B44E-8EF97D88AD66/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js
+VSCODE_GIT_IPC_HANDLE=/var/folders/dc/8z0qkb4x2rbfrsj6pbb1g6mr0000gn/T/vscode-git-5942e91bf1.sock
+VSCODE_INJECTION=1
+ZDOTDIR=/Users/gurmanjohal
+USER_ZDOTDIR=/Users/gurmanjohal
+TERM=xterm-256color
+_CE_M=
+_CE_CONDA=
+_=/usr/bin/env
