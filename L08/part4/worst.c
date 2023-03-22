@@ -1,9 +1,10 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main() {
     int arr[2] = {1, 2};
     int index = 3;
-    int flag = 0;
+    bool flag = 0;
 
     int result = 1 / 0; // zero division
 
