@@ -4,9 +4,6 @@
 [submodule "L07/1XC3_L07"]
 	path = L07/1XC3_L07
 	url = git@github.com:gjohal78/1XC3_L07.git
-[submodule "L08/course-name"]
-	path = L08/course-name
-	url = git@github.com:gjohal78/course-name.git
 [submodule "L08/Hello-WorldLabP1"]
 	path = L08/Hello-WorldLabP1
 	url = git@github.com:gjohal78/Hello-WorldLabP1.git
