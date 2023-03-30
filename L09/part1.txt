@@ -1,0 +1,3 @@
+In the first table on the website, the 8th markdown element is the horizontal rule, which is represented by three 
+hyphens or three asterisks on a line by itself (--- or ***). The horizontal rule is used to create a visual 
+separation between content in a document.
