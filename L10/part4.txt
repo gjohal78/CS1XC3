@@ -1,0 +1,12 @@
+1) sed -i 's/backwards/forwards/g' *.txt
+2) find . -name "*.tex" -type f -exec sed -i '/\\includegraphics\[.*\]{.*}/d' {} +
+3) find . -type f -name "*.tex" -exec sed -i 's/\\begin{itemize}/\\begin{enumerate}/g' {} \;
+4) find . -type f -exec sed -i -E 's/(\.)/^{[citation needed]}\1/g' {} \;
+5) find . -type f -name "*.tex" -exec sed -i '100,300 s/\w*ing\b/a gerund/g' {} +
+6) find . -type f -name "*.log" -exec sed -i '15,18d' {} +
+7) find . -type f -name '*.tex' -exec sed -i 's/\\textbf{/\\textit{/g' {} +
+8) find . \( -name "*.tex" -o -name "*.txt" \) -type f -exec sed -i 's/[aeiouAEIOU]//g' {} +
+9) find . -type f -name "*.tex" -exec sed -i '/^[^\\]*%/d' {} \;
+10) find . -type f \( -name "*.tex" -o -name "*.txt" \) -exec sed -i 's/[[:punct:]]/!/g' {} +
+
+

@@ -1,0 +1,10 @@
+1) grep -r '\\includegraphics' --include='*.tex' .
+2) grep --include="*.tex" -riE '\\begin\s*{[^{}]*}([^{\[]|\[[^{\]]*\])*$' .
+3) grep -r -w -E "arbitrary|bit-width|pointer" .
+4) find . -type f -iname "*.tex" -name "*[S]*" -exec grep -HE '\b(am|is|are|was|were|be|been|being|will be|had been|will have been|have been)\b' {} +
+5) grep -rEzo ".?begin{itemize}.*\n.*item"
+6) grep -r -E '({?pointer}? [rRsStTlLnNeE].* )'
+7) grep -Eior " [a-z]*[aeiou]{2}[a-z]* "
+8) grep -rPzo "(?s)if\s*\([^)]*\)\s*{[^}]*}"
+9) grep -rE "^((int|void|float|char)(\s|\*|\*\s)+\w+\s*\([^)]*\))" .
+10) grep -r -E "[0-9]+ (\+|\-|\/|\*) [0-9]+" .

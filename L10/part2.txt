@@ -1,0 +1,15 @@
+1) find . -name "*.tex"
+2) find . -name "*.tex" | grep -v "template.tex"
+3) find . -name "*.tex" -exec wc -l {} \;
+4) find . -type f \( -name "*.tex" -o -name "*.pdf" -o -name "*.toc" \)
+5) find . \( -regex '.*/Topic [7-9].*' -o -regex '.*/Topic 1[0-9].*' \) -a -name "*pdf"
+6) find . -name '*~' -exec rm {} \;
+7) find . -type f -name "#*#" -exec rm {} \;
+8) find . -type f \( -name "*.png" -o -name "*.jpg" -o -name "*.bmp" -o -name "*.webp" \) -printf "%f\n" | awk 'length($0)==10' > goodFiles.txt
+9) find . -name "*.log" -exec cat {} >> ../allTheLogs.log \;
+10) find . -type f \( -name "*.aux" -a -name "*C*" \) | xargs -I {} sed -n '10p' {}
+11) find . -type f -name "*.sh" -exec chmod +x {} \;
+12) find . -name "* and *" -type f -exec head -n 10 "{}" \; >> allheads.txt
+13) find . \( -name "*png" -o -name "*.jpg" -o -name "*webp" -o -name "*jpeg" \) -exec cp {} image_backup \; 
+14) xargs -d '\n' cat < filenames.txt
+15) xargs -I {} find . -type f -name {} < allTheGlobs.txt
